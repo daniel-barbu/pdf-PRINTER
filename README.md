@@ -14,5 +14,5 @@ or
 | X (dbclick)           | save mode          |
 
 ### Screenshot
-[<span style="font-size:x-large;">example PDF output</span>](/output.pdf)  
+#### [example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/output.pdf)  
 ![screenshot.png not loaded correctly](/screenshot.png)
