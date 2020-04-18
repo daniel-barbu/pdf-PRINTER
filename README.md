@@ -15,3 +15,6 @@ or
 
 ### Screenshot
 ![screenshot.png not loaded correctly](/screenshot.png)
+
+### Output
+![output.pdf not loaded correctly](/output.pdf)
