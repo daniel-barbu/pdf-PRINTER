@@ -15,4 +15,4 @@ or
 
 ### Screenshot
 ![screenshot.png not loaded correctly](/screenshot.png)  
-[example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/blob/master/output.pdf)
+### [example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/blob/master/output.pdf)
