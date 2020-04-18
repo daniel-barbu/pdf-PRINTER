@@ -15,4 +15,4 @@ or
 
 ### Screenshot
 ![screenshot.png not loaded correctly](/screenshot.png)  
-<h1 style="margin-top:0 !important;">[example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/blob/master/output.pdf)</h1>
+<h1 style="margin-top:0 !important;"><a href="https://github.com/daniel-barbu/pdf-PRINTER/blob/master/output.pdf">example PDF output</a></h1>
