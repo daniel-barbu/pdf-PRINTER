@@ -1,1 +1,1 @@
-# pdf-PRINTER
+# pdf-PRINTER<sub>(chrome)</sub>
