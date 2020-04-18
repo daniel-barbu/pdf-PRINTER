@@ -42,17 +42,22 @@ data:text/html,
 <div id=divButtons>
   <button onclick="for (i=0;i<=7;i++) {document.getElementsByName('tdFontSize')[i].style.fontSize = parseInt(document.getElementsByName('tdFontSize')[i].style.fontSize.replace(/\D/g,''))-1 +'px'}">a</button>
   <button onclick="for (i=0;i<=7;i++) {document.getElementsByName('tdFontSize')[i].style.fontSize = parseInt(document.getElementsByName('tdFontSize')[i].style.fontSize.replace(/\D/g,''))+1 +'px'}">A</button><br>
-  <button onclick="if(document.documentElement.style.borderStyle=='dashed') {document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px';} else {document.documentElement.style.borderStyle='dashed'; document.body.style.marginTop='0px'; document.body.style.marginBottom='0px';}; " hidden>|</button><button ondblclick="document.getElementById('divButtons').setAttribute('hidden',''); document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px'; " style="width:61px;">X</button>
+  <!-- <button onclick="if(document.documentElement.style.borderStyle=='dashed') {document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px';} else {document.documentElement.style.borderStyle='dashed'; document.body.style.marginTop='0px'; document.body.style.marginBottom='0px';}; ">|</button> -->
+	<button ondblclick="document.getElementById('divButtons').setAttribute('hidden',''); document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px'; " style="width:61px;">X</button>
 </div>
 
 <style>
-	html{ font-family: Consolas; width: 210mm; height: 277mm; margin: auto; border: 3px black dashed; padding: 0px; background-color: #525659}
-	body { margin:0px; height:277mm; background-color: white; padding: 0;}
-	table{ width:100%;}
-	td { border-left:1px black solid; padding-left:3px; white-space: pre; vertical-align: top;}
-	th { text-align: left; font-weight: bold; text-transform: uppercase;}
-	#trSpacer, #trSpacer2, #trSpacer3 { height:15px;}
-	#divButtons { position: fixed; right: 0; bottom: 0;}
-	button { width:26px; height:26px;}
+	html {font-family: Consolas; width: 210mm; height: 297mm; margin: auto; border: 3px black dashed; padding: 0px; background-color: #525659}
+	body {margin:0px; height:297mm; background-color: white; padding: 0;}
+	table {width:100%;}
+	td {border-left:1px black solid; padding-left:3px; white-space: pre; vertical-align: top;}
+	th {text-align: left; font-weight: bold; text-transform: uppercase;}
+	#trSpacer, #trSpacer2, #trSpacer3 {height:15px;}
+	#divButtons {position: fixed; right: 0; bottom: 0;}
 </style>
+<script>
+	document.getElementsByTagName("button")[0].style="position: absolute; height:"+screen.width*(2/100)+"px; width:"+screen.width*(2.5/100)+"px; bottom:"+screen.width*(2/100)+"px; right:"+screen.width*(2.5/100)+"px;";
+	document.getElementsByTagName("button")[1].style="position: absolute; height:"+screen.width*(2/100)+"px; width:"+screen.width*(2.5/100)+"px; bottom:"+screen.width*(2/100)+"px; right:0px;";
+	document.getElementsByTagName("button")[2].style="position: absolute; height:"+screen.width*(2/100)+"px; width:"+screen.width*(5/100)+"px; bottom:0px; right:0px;";
+</script>
 </html>
