@@ -14,5 +14,5 @@ or
 | X (dbclick)           | save mode          |
 
 ### Screenshot
-<a href="https://github.com/daniel-barbu/pdf-PRINTER/raw/master/output.pdf"><h5 style="margin-bottom:0 !important;">example PDF output</h5></a>
+<h5 style="margin-bottom:0 !important;"><a href="https://github.com/daniel-barbu/pdf-PRINTER/raw/master/output.pdf">example PDF output</a></h5>
 ![screenshot.png not loaded correctly](/screenshot.png)
