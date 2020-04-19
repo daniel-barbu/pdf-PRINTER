@@ -1,6 +1,7 @@
 # pdf-PRINTER<sub>(chrome)</sub>
-pdf-PRINTER is a HTML page you can use to save PDFs with CTRL+P. It can be saved as a bookmark on Google Chrome.  
+pdf-PRINTER is a HTML page you can use to save PDFs. It can be saved as a bookmark on Google Chrome.  
 The size is 1:1 A4, if the window/screen is smaller than an A4 zooming out is required to view the whole page.
+Also, when saving the PDF make sure to only select the first page!
 
 ### How to use
 * right click `Bookmarks bar` > `Add page...` > `URL`: [pdf-PRINTER-bookmark](https://raw.githubusercontent.com/daniel-barbu/pdf-PRINTER/master/pdf-PRINTER-bookmark)  
