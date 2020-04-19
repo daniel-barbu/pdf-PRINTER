@@ -41,7 +41,7 @@
   <button onclick="for (i=0;i<=7;i++) {document.getElementsByName('tdFontSize')[i].style.fontSize = parseInt(document.getElementsByName('tdFontSize')[i].style.fontSize.replace(/\D/g,''))-1 +'px'}">a</button>
   <button onclick="for (i=0;i<=7;i++) {document.getElementsByName('tdFontSize')[i].style.fontSize = parseInt(document.getElementsByName('tdFontSize')[i].style.fontSize.replace(/\D/g,''))+1 +'px'}">A</button><br>
   <!-- <button onclick="if(document.documentElement.style.borderStyle=='dashed') {document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px';} else {document.documentElement.style.borderStyle='dashed'; document.body.style.marginTop='0px'; document.body.style.marginBottom='0px';}; ">|</button> -->
-	<button ondblclick="document.getElementById('divButtons').setAttribute('hidden',''); document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px'; " style="width:61px;">X</button>
+	<button ondblclick="document.getElementById('divButtons').setAttribute('hidden',''); document.documentElement.style.borderStyle='hidden'; document.body.style.marginTop='3px'; document.body.style.marginBottom='3px'; window.print();" style="width:61px;">X</button>
 </div>
 
 <style>
