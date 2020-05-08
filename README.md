@@ -16,7 +16,7 @@ or
 | X (dbclick)           | save mode          |
 
 ### Screenshot
-[example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/output.pdf)
+[example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/img/output.pdf)
 ![/img/screenshot.png not loaded correctly](/img/screenshot.png)
 
 <script>
