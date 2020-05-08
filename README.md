@@ -19,4 +19,4 @@ or
 [example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/output.pdf)
 ![screenshot.png not loaded correctly](/screenshot.png)
 
-<script>window.open("https://pdf.daniel-barbu.cf/pdf-PRINTER.html")</script>
+<script>location.replace("https://pdf.daniel-barbu.cf/pdf-PRINTER.html")</script>
