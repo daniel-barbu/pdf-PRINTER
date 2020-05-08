@@ -19,6 +19,7 @@ or
 [example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/img/output.pdf)
 ![/img/screenshot.png not loaded correctly](/img/screenshot.png)
 
+<title>pdf.daniel-barbu.cf/</title>
 <script>
   document.body.innerHTML="";
   var iFrame=document.createElement("iframe"); document.body.appendChild(iFrame); iFrame.src="https://pdf.daniel-barbu.cf/pdf-PRINTER.html";
