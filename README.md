@@ -21,6 +21,4 @@ or
 
 <script>
   location.replace("https://pdf.daniel-barbu.cf/pdf-PRINTER.html")
-  var link=document.createElement("link"); link.rel="icon"; link.href="/img/favicon.png?"; document.getElementsByTagName("head")[0].appendChild(link);
-  document.getElementsByTagName("title")[0].textContent="pdf.daniel-barbu.cf";
 </script>
