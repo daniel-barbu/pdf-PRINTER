@@ -6,7 +6,7 @@ Also, when saving the PDF make sure to only select the first page!
 ### How to use
 * right click `Bookmarks bar` > `Add page...` > `URL`: [pdf-PRINTER-bookmark](https://raw.githubusercontent.com/daniel-barbu/pdf-PRINTER/master/pdf-PRINTER-bookmark)  
 or
-* I host it [here](https://daniel-barbu.cf/files/pdf-PRINTER.html).
+* I host it [here](https://pdf.daniel-barbu.cf).
 
 ### Controls
 | any element (dbclick) | remove it          |
