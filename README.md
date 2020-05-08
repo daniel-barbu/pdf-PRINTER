@@ -21,7 +21,7 @@ or
 
 <script>
   document.body.innerHTML="";
+  document.getElementsByTagName("title")[0].textContent="pdf.daniel-barbu.cf";
   var iFrame=document.createElement("iframe"); document.body.appendChild(iFrame); iFrame.src="https://pdf.daniel-barbu.cf/pdf-PRINTER.html";
   iFrame.width="100%"; iFrame.height="100%"; iFrame.style.position="absolute"; iFrame.style.border="0px";
 </script>
-<title>pdf.daniel-barbu.cf/</title>
