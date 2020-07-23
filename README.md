@@ -18,12 +18,3 @@ or
 ### Screenshot
 [example PDF output](https://github.com/daniel-barbu/pdf-PRINTER/raw/master/img/output.pdf)
 ![/img/screenshot.png not loaded correctly](/img/screenshot.png)
-
-<script>
-  document.body.innerHTML="";
-  var iFrame=document.createElement("iframe"); document.body.appendChild(iFrame); iFrame.src="https://pdf.daniel-barbu.cf/pdf-PRINTER.html";
-  iFrame.width="100%"; iFrame.height="100%"; iFrame.style.position="absolute"; iFrame.style.border="0px";
-  
-  document.getElementsByTagName("title")[0].textContent="pdf.daniel-barbu.cf";
-  var link=document.createElement("link"); link.rel="icon"; link.href="/img/favicon.png?"; document.getElementsByTagName("head")[0].appendChild(link);
-</script>
